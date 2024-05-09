@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  font-family: "Inter", cursive;
+}
+.nav .active {
+  border-bottom: 3px solid #06286e;
+  font-weight: 700;
+  color: #06286e;
+}
